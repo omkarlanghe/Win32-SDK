@@ -5,6 +5,7 @@
   1. ClassFactory Client Server
   2. Containment
   3. Aggregation
+  4. Automation
  
 # DotNet Window
 # Requirements:
