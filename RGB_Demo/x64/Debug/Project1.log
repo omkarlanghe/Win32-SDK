@@ -1,0 +1,16 @@
+﻿  Demo.cpp
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(45): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(65): warning C4312: 'type cast': conversion from 'LONG' to 'HINSTANCE' of greater size
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(75): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(82): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(86): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(89): warning C4311: 'type cast': pointer truncation from 'LRESULT (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'LONG'
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(89): warning C4302: 'type cast': truncation from 'LRESULT (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'LONG'
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(89): warning C4312: 'type cast': conversion from 'LONG' to 'WNDPROC' of greater size
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(160): warning C4311: 'type cast': pointer truncation from 'HBRUSH' to 'LONG'
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(160): warning C4302: 'type cast': truncation from 'HBRUSH' to 'LONG'
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(160): warning C4312: 'type cast': conversion from 'DWORD' to 'HBRUSH' of greater size
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(187): warning C4311: 'type cast': pointer truncation from 'HGDIOBJ' to 'LONG'
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(187): warning C4302: 'type cast': truncation from 'HGDIOBJ' to 'LONG'
+e:\omkar\gokhale sir\sdk-2019\project1\demo.cpp(187): warning C4312: 'type cast': conversion from 'DWORD' to 'HBRUSH' of greater size
+  Project1.vcxproj -> E:\Omkar\Gokhale Sir\SDK-2019\Project1\x64\Debug\Project1.exe
