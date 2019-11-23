@@ -1,0 +1,45 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">-->
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+    <!--<META content="IE=5.0000" http-equiv="X-UA-Compatible">-->
+    <TITLE>Automation JavaScript Client Demo</TITLE>
+    <!--<META http-equiv="Content-Type" content="text/html; charset=windows-1252">-->
+    <OBJECT name="automationServerCompo"
+            id="automationServerCompo"
+            classid="clsid:8FD1609B-35AF-4E51-9D6B-B8F17998AF3A" <!--E57C7333-9DC1-444D-BA05-86C7601B6C26-- 64bit  type="application/x-oleobject"-->
+    </OBJECT>
+    <!--Provide our Co class's CLSID. 'automationServerCompo' is object name -->
+        <!--<META name="GENERATOR" content="MSHTML 11.00.10570.1001">-->
+</HEAD>    
+        <SCRIPT language="javascript" type="text/javascript">
+            function comMethod_click() {
+                var returnCode = automationServerCompo.SumOfTwoIntegers(num1.value,num2.value); /*<!-- Our function name(case sensetive) with respective parameters-->*/
+                var msg = "Sum of "+num1.value+" and"+ num2.value+" is:"+ returnCode;
+				alert("SumOfTwoIntegers invoke success!")
+				alert("Automation Server:"+msg)
+            }    
+        </SCRIPT>
+		 <FONT color="#b404ae" face="verdana" size="5">
+            Automation Server Component SumOfTwoIntegers method invocation demo through JavaScript:<BR><BR>
+         </FONT>
+		 <FONT face="verdana">
+    <TABLE>
+        <TBODY>
+            <TR>
+                <TD>
+                    <LABEL>Num1</LABEL>                     
+                    <TEXTAREA id="num1" rows="1" cols="7">10</TEXTAREA>
+      				<LABEL>Num2</LABEL>
+					<TEXTAREA id="num2" rows="1" cols="7">20</TEXTAREA>
+                    <BUTTON id="myButton" onclick="comMethod_click();">
+                        Call COM Method
+                    </BUTTON>                 
+                </TD>
+            </TR>
+        </TBODY>
+    </TABLE>
+        <FONT color="#0040ff" face="verdana" size="3"><BR><BR><BR><BR><BR><BR> -Dedicated to our Dr. Gokhale sir.     
+        </FONT>
+        </FONT>
+</HTML>
